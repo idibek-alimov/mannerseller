@@ -1,0 +1,105 @@
+.item-card-box {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(232, 223, 223);
+  cursor: pointer;
+}
+.item-card-box:hover {
+  background-color: rgb(249, 246, 246);
+}
+.item-card-box th:first-child {
+  width: 5%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.item-card-box th:first-child img {
+  height: 90%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.item-card-box th {
+  text-align: left;
+  width: 15%;
+  min-height: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.item-card-box .edit-box {
+  width: 50px;
+}
+/* .item-card-box .item-card-img {
+  width: 50px;
+  height: 50px;
+}
+.item-card-box .item-card-category {
+  width: 200px;
+  color: blueviolet;
+}
+.item-card-box td {
+  text-align: left;
+  background-color: yellow;
+}
+.item-card-box .item-card-brand {
+  width: 150px;
+}
+.item-card-box .item-card-name {
+  width: 150px;
+}
+.item-card-box .item-card-color {
+  width: 150px;
+}
+.item-card-box .item-card-size {
+  width: 150px;
+}
+.item-card-box .item-card-id {
+  width: 150px;
+} */
+.item-card-box .edit-box {
+  position: sticky;
+  right: 50px !important;
+  z-index: 3;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  word-break: break-all;
+  display: table-cell;
+
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  word-break: break-all;
+}
+
+.item-card-box .delete-box {
+  position: sticky;
+  right: 20px;
+  z-index: 3;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  word-break: break-all;
+  display: table-cell;
+
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  word-break: break-all;
+}
+.item-card-box .item-icon {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border: 1px solid rgb(242, 236, 236);
+  border-radius: 100%;
+  background-color: white;
+}
+.item-card-box .item-icon:hover {
+  scale: 1.08;
+}

@@ -1,0 +1,127 @@
+.article-create-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-create-box .article-create-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.article-create-box .article-create-wrapper .colors-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.article-create-box .article-create-wrapper .main-text {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+}
+.article-create-box .article-create-wrapper .add-color-button-box {
+  width: 100%;
+  text-align: left;
+}
+.article-create-box
+  .article-create-wrapper
+  .add-color-button-box
+  .add-color-button {
+  text-align: center;
+  padding: 15px 40px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.article-create-box .article-create-wrapper .article-item-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article-create-box .article-create-wrapper .article-item-wrapper .name {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  width: 20%;
+  text-align: left;
+}
+.article-create-box .article-create-wrapper .article-item-wrapper .price-input {
+  border: 1px solid lightgray;
+  outline: none;
+  width: 80%;
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+}
+.article-create-box
+  .article-create-wrapper
+  .article-item-wrapper
+  .inventory-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.article-create-box
+  .article-create-wrapper
+  .article-item-wrapper
+  .inventory-box
+  .inventory-item-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.article-create-box
+  .article-create-wrapper
+  .article-item-wrapper
+  .inventory-box
+  .inventory-item-box
+  .delete-icon-box {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  width: 28px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+}
+.article-create-box
+  .article-create-wrapper
+  .article-item-wrapper
+  .inventory-box
+  .inventory-item-box
+  .delete-icon-box
+  .delete-icon {
+  width: 20px;
+  height: 20px;
+  color: red;
+}
+.article-create-box
+  .article-create-wrapper
+  .article-item-wrapper
+  .inventory-box
+  .add-inventory-box {
+  display: flex;
+  flex-direction: row;
+  color: blueviolet;
+  gap: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}

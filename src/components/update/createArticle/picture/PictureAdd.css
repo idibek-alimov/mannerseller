@@ -1,0 +1,82 @@
+.picture-box {
+  width: 100%;
+}
+.picture-box .pictures-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2%;
+  flex-wrap: wrap;
+  position: relative;
+}
+.picture-box .pictures-wrapper .img-box {
+  width: 23%;
+  aspect-ratio: 3/4;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px lightgray;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2%;
+}
+.picture-box .pictures-wrapper .img-box-add {
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px dashed gray;
+  background-color: lightgray;
+}
+.picture-box .pictures-wrapper .img-box-add .empty-pictures-wrapper {
+  border: none;
+  border-radius: none;
+}
+.picture-box .pictures-wrapper .img-box .picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.picture-box .pictures-wrapper .img-box .delete-icon {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 10px 0;
+  color: rgb(75, 75, 75);
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.picture-box .pictures-wrapper .img-box:hover .delete-icon {
+  display: flex;
+}
+.picture-box .empty-pictures-wrapper {
+  width: 100%;
+  height: 300px;
+  background-color: lightgray;
+  border: 1px dashed gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.picture-box .empty-pictures-wrapper .plus-icon {
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  color: gray;
+  border-radius: 10px;
+}
+.picture-box .empty-pictures-wrapper .bold-text {
+  color: blueviolet;
+  font-size: 16px;
+  font-weight: 800;
+}
+.picture-box .empty-pictures-wrapper .secondary-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}

@@ -1,0 +1,44 @@
+.main-box {
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.main-box .main-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-box .main-wrapper .top {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.main-box .main-wrapper .top .add-product {
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.main-box .main-wrapper .main-page-nav-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.main-box .main-wrapper .main-page-nav-box .main-page-nav-item {
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+}
+.main-box .main-wrapper .bottom {
+  width: 100%;
+}

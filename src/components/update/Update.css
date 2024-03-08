@@ -1,0 +1,101 @@
+.product-create-box {
+  width: 100%;
+}
+.product-create-box .product-create-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.product-create-box .product-create-wrapper .product-info-part {
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0 20px 0;
+}
+.product-create-box
+  .product-create-wrapper
+  .product-info-part
+  .product-info-main-text {
+  font-size: 16px;
+  font-weight: 600;
+  width: 90%;
+  text-align: left;
+}
+.product-create-box
+  .product-create-wrapper
+  .product-info-part
+  .product-create-item-box {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.product-create-box
+  .product-create-wrapper
+  .product-info-part
+  .product-create-item-box
+  .name {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  width: 20%;
+  text-align: left;
+}
+.product-create-box
+  .product-create-wrapper
+  .product-info-part
+  .product-create-item-box
+  .name-input {
+  border: 1px solid lightgray;
+  outline: none;
+  width: 80%;
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+}
+.product-create-box
+  .product-create-wrapper
+  .product-info-part
+  .product-create-item-box
+  .description-input {
+  border: 1px solid lightgray;
+  outline: none;
+  width: 80%;
+  height: 100px;
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+}
+.product-create-box .product-create-wrapper .article-info-part {
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0 20px 0;
+}
+.product-create-box .product-create-wrapper .submit-product-box {
+  align-items: flex-start;
+}
+.product-create-box
+  .product-create-wrapper
+  .submit-product-box
+  .submit-product-button {
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 5%;
+  cursor: pointer;
+}

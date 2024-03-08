@@ -1,0 +1,36 @@
+.manager-box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.manager-box .manager-nav-button-box {
+  width: 400px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow: hidden;
+  border-radius: 10px;
+  gap: 1px;
+  background-color: gray;
+}
+.manager-box .manager-nav-button-box button {
+  width: 33%;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* .manager-box .manager-nav-button-box .left {
+  border-radius: 5px 0 0 5px;
+}
+.manager-box .manager-nav-button-box .right {
+  border-radius: 5px 0 0 5px;
+} */

@@ -1,0 +1,26 @@
+.master-order-box {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: flex-start;
+}
+.master-order-box .order-buttons-box {
+  height: 50px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.master-order-box .order-buttons-box button {
+  height: 100%;
+  width: 33.1%;
+  background-color: lightgray;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
